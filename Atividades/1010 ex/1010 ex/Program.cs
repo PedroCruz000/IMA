@@ -12,7 +12,7 @@
             //produto 02 
             int codigoDoProdutoP2 = int.Parse(Console.ReadLine());
             int numeroDeItensP2 = int.Parse(Console.ReadLine());
-            float preçoDaUnidadeP2 = float.Parse(Console.ReadLine())a;
+            float preçoDaUnidadeP2 = float.Parse(Console.ReadLine());
 
             double valorAPagar = (numeroDeItensP1 * preçoDaUnidadeP1) + (numeroDeItensP2 * preçoDaUnidadeP2);
             Console.WriteLine($"VALOR A PAGAR: R$ {valorAPagar:f2}");
