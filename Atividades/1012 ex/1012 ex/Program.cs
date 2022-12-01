@@ -17,11 +17,11 @@
             double areaQuadrado = b * b;
             double areaRetangulo = a * b;
 
-            Console.WriteLine($"TRIANGULO: {areaTriangulo:f3}\nCIRCULO: {areaCirculo:f3}\nTRAPÉZIO: {areaTrapezio:f3}\nQUADRADO: {areaQuadrado:f3}\nRETANGULO: {areaRetangulo:f3}");
-            //Console.WriteLine($"CIRCULO: {areaCirculo:f3}");
-            //Console.WriteLine($"TRAPÉZIO: {areaTrapezio:f3}");
-            //Console.WriteLine($"QUADRADO: {areaQuadrado:f3}");
-            //Console.WriteLine($"RETANGULO: {areaRetangulo:f3}");
+            Console.WriteLine($"TRIANGULO: {areaTriangulo:f3}");
+            Console.WriteLine($"CIRCULO: {areaCirculo:f3}");
+            Console.WriteLine($"TRAPEZIO: {areaTrapezio:f3}");
+            Console.WriteLine($"QUADRADO: {areaQuadrado:f3}");
+            Console.WriteLine($"RETANGULO: {areaRetangulo:f3}");
 
         }
     }
