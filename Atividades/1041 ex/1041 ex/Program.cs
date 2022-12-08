@@ -4,6 +4,7 @@
     {
         public static void Main(string[] args)
         {
+
             string linha = Console.ReadLine();
             string[] numerosXY = linha.Split();
 
@@ -18,7 +19,7 @@
             {
                 Console.WriteLine("Q2");
             }
-           else if (eixoX <0 && eixoY < 0)
+           else if (eixoX < 0 && eixoY < 0)
             {
                 Console.WriteLine("Q3");
             }
@@ -26,7 +27,15 @@
             {
                 Console.WriteLine("Q4");
             }
-            else
+           else if(eixoX ==0 && eixoY != 0)
+            {
+                Console.WriteLine("Eixo Y");
+            }
+           else if(eixoY == 0 && eixoX != 0)
+            {
+                Console.WriteLine("Eixo X");
+            }
+            else if (eixoX == 0 && eixoY == 0)
             {
                 Console.WriteLine("Origem");
             }
