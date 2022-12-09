@@ -7,7 +7,7 @@
             int x = int.Parse(Console.ReadLine());
 
 
-            for (int count = 10; count <= x; count++)
+            for (int count = 1; count <= x; count++)
                 if (count %2 != 0)
                 {
                     Console.WriteLine(count);
