@@ -5,19 +5,22 @@
         public static void Main(string[] args)
         {
             int maior = 0;
-            int posição = 0;
-            for (int cont = 0; cont < 100; cont++)
+            int posicao = 0;
+            for (int cont = 1; cont <= 100; cont++)
             {
                 int numero = int.Parse(Console.ReadLine());
                 if (numero > maior)
                 {
                     maior = numero;
-                    posição = cont;
+                    posicao = cont;
 
                 }
-                Console.WriteLine(maior);
-                Console.WriteLine(posição+1);
             }
+
+
+            Console.WriteLine(maior);
+            Console.WriteLine(posicao);
+
         }
     }
 }

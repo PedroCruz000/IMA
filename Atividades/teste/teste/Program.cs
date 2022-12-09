@@ -4,10 +4,10 @@
     {
         public static void Main(string[] args)
         {
-            int numero = 24;
-            int par = numero % 2;
-
-            Console.WriteLine(par);
+            double teste = (double)4000 / 92;
+            double resto = 4000 % 92;
+            Console.WriteLine($"{teste:F2}");
+            Console.WriteLine(resto);
         }
     }
 }
