@@ -1,0 +1,15 @@
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\bin\Debug\net6.0\1113 ex.exe
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\bin\Debug\net6.0\1113 ex.deps.json
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\bin\Debug\net6.0\1113 ex.runtimeconfig.json
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\bin\Debug\net6.0\1113 ex.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\bin\Debug\net6.0\1113 ex.pdb
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\obj\Debug\net6.0\1113 ex.csproj.AssemblyReference.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\obj\Debug\net6.0\1113 ex.GeneratedMSBuildEditorConfig.editorconfig
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\obj\Debug\net6.0\1113 ex.AssemblyInfoInputs.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\obj\Debug\net6.0\1113 ex.AssemblyInfo.cs
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\obj\Debug\net6.0\1113 ex.csproj.CoreCompileInputs.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\obj\Debug\net6.0\1113 ex.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\obj\Debug\net6.0\refint\1113 ex.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\obj\Debug\net6.0\1113 ex.pdb
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\obj\Debug\net6.0\1113 ex.genruntimeconfig.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\1113 ex\1113 ex\obj\Debug\net6.0\ref\1113 ex.dll

@@ -1,15 +1,25 @@
-﻿namespace ex1014
+﻿namespace ex1114
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            int quilometrosPercorridos = int.Parse(Console.ReadLine()); 
-            float combustivelGasto =  float.Parse(Console.ReadLine());    
+            
 
-            double mediaDeConsumo = quilometrosPercorridos / combustivelGasto;
+            while(true)
+            {
+                int senha = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"{mediaDeConsumo:f3} km/l");
+                if (senha != 2002)
+                {
+                    Console.WriteLine("Senha Invalida");
+                }
+                else
+                {
+                    Console.WriteLine("Acesso Permitido");
+                    break;
+                }
+            }
         }
     }
 }
