@@ -7,7 +7,7 @@
             int notasValidas = 0;
             double nota1 = 0;
             double nota2 = 0;
-            int simNão = 4;
+            int simNao = 4;
 
             for (int i = 0; notasValidas <= 2; i++)
             {
@@ -37,15 +37,16 @@
                     double media = (nota1 + nota2) / 2;
                     Console.WriteLine($"media = {media:f2}");
                     
-                    while(simNão < 0 || simNão > 2)
+                    while(simNao < 1 || simNao > 2)
                     {
                         Console.WriteLine("novo calculo (1-sim 2-nao)");
-                        simNão = int.Parse(Console.ReadLine());
+                        simNao = int.Parse(Console.ReadLine());
                         
 
-                        if (simNão == 2)
-                        {                           
-                            Environment.Exit(1);
+                        if (simNao == 2)
+                        {
+                            notasValidas = 3;
+                            break;
                         }
                         
 
@@ -56,7 +57,7 @@
 
 
                     }
-                    simNão= 4;
+                    simNao= 4;
                 }
 
 
