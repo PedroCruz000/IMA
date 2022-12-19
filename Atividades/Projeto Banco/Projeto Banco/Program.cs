@@ -2,38 +2,69 @@
 {
     public class Program
     {
-        static double Somar(double numero1, double numero2)
+        // MENU
+        static void MostrarOMenu()
         {
-            double soma = numero1 + numero2;
-
-            return soma;
-        }
-
-        static void DizerOla(string nome)
-        {
-            Console.WriteLine($"Olá {nome}");
-        }
-
-        static void DizerOlaEResponderSoma(string nome, double numero1, double numero2)
-        {
-            DizerOla(nome);
-            Console.WriteLine($" O valor da sua soma é {Somar(numero1, numero2)}");
+            Console.WriteLine("1 - Inserir novo Usuário");
+            Console.WriteLine("2 - Deletar um Usuário");
+            Console.WriteLine("3 - Detalhes do Usuário");
+            Console.WriteLine("4 - Saldo");
+            Console.WriteLine("0 - sair");
+            Console.Write("Digite a opção desejada:");
         }
         public static void Main(string[] args)
         {
-            Console.Write(" olá, qual o seu nome:");
-            string nome = Console.ReadLine();
+            Console.WriteLine(" Antes de começão a usar, vamos configurar alguns valores:");
 
-            Console.Write("Digite um numero:");
-            double numero1 = double.Parse(Console.ReadLine());
-
-            Console.Write("Digite outro valor:");
-            double numero2 = double.Parse(Console.ReadLine());
+            Console.Write("digite a quantidade de usuários: ");
+            int quantidadeDeUsuarios = int.Parse(Console.ReadLine());
 
 
-            DizerOlaEResponderSoma(nome, numero1, numero2);
+            
+            int option;
+
+            do
+            {
+                MostrarOMenu();
+                option = int.Parse(Console.ReadLine());
+
+                //REALIZAR OPÇÃO DESEJADA
+
+                if (option == 0)
+                {
+                    Console.WriteLine("Encerrando o Programa...");
+                }
 
 
+                else if (option == 1)
+                {
+                    //realizar opão 1 
+                }
+
+
+                else if (option == 2)
+                {
+                    //realizar opão 2
+                }
+
+
+                else if (option == 3)
+                {
+
+                }
+
+
+                else if (option == 4)
+                {
+                    
+                }
+
+
+
+            } while (option != 0);
+
+     
+                       
         } 
     }
 }
