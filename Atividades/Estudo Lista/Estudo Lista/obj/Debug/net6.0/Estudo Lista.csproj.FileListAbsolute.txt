@@ -1,0 +1,15 @@
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\bin\Debug\net6.0\Estudo Lista.exe
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\bin\Debug\net6.0\Estudo Lista.deps.json
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\bin\Debug\net6.0\Estudo Lista.runtimeconfig.json
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\bin\Debug\net6.0\Estudo Lista.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\bin\Debug\net6.0\Estudo Lista.pdb
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\obj\Debug\net6.0\Estudo Lista.csproj.AssemblyReference.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\obj\Debug\net6.0\Estudo Lista.GeneratedMSBuildEditorConfig.editorconfig
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\obj\Debug\net6.0\Estudo Lista.AssemblyInfoInputs.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\obj\Debug\net6.0\Estudo Lista.AssemblyInfo.cs
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\obj\Debug\net6.0\Estudo Lista.csproj.CoreCompileInputs.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\obj\Debug\net6.0\Estudo Lista.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\obj\Debug\net6.0\refint\Estudo Lista.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\obj\Debug\net6.0\Estudo Lista.pdb
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\obj\Debug\net6.0\Estudo Lista.genruntimeconfig.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\Estudo Lista\Estudo Lista\obj\Debug\net6.0\ref\Estudo Lista.dll

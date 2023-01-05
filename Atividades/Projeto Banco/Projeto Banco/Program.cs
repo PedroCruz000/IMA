@@ -16,10 +16,12 @@
         {
             Console.WriteLine(" Antes de começão a usar, vamos configurar alguns valores:");
 
-            Console.Write("digite a quantidade de usuários: ");
-            int quantidadeDeUsuarios = int.Parse(Console.ReadLine());
+            List<string> cpfs = new List<string>();
+            List<string> titulares = new List<string>();
+            List<double> saldos = new List<double>();
+           
 
-
+            
             
             int option;
 
@@ -39,6 +41,9 @@
                 else if (option == 1)
                 {
                     //realizar opão 1 
+
+                    RegistrarNovoUsuario(cpfs, titulares, saldos);
+                    
                 }
 
 
