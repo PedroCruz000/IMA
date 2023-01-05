@@ -36,11 +36,26 @@ namespace estudosLista
                 Console.WriteLine(i);
             }
 
+            // remover todos os elementos especificos
+            var result4 = Sequencia.RemoveAll(x => x == 2);
+
+            Console.WriteLine("numero de elementos removidos" + result4);  
+
+            
+
+
 
             List<int> Lista2 = new List<int>();
 
             Lista2.Add(9);
+
+            // adicionar uma lista dentro de uma lista
             Lista2.AddRange(Sequencia);
+
+            // adicionar um item na lista em uma posição especifica, sem substituir.
+            Lista2.Insert(2, 999);
+
+
 
             foreach (int i in Lista2)
             {
