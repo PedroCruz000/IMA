@@ -98,9 +98,11 @@ namespace bybankPedroCruz
             Console.WriteLine($"Olá {titulares[index]}, bem vindo ao Espaço do cliente:");
             Console.WriteLine("");
             Console.WriteLine("------------------------------------------------------------------");
-            
+            Console.WriteLine("");
+
             //mostrar as informações da conta 
             Console.WriteLine($"CPF = {cpfs[index]} | Titular = {titulares[index]} | Saldo = R${saldos[index]:F2}");
+            Console.WriteLine("");
 
             // mostrar menu do cliente 
             MenuDoCliente(index, cpfs, titulares, saldos);
@@ -117,7 +119,8 @@ namespace bybankPedroCruz
             {
                 Console.WriteLine("1 - Deposito");
                 Console.WriteLine("2 - Saque");
-                Console.WriteLine("3 - Transferencia");
+                Console.WriteLine("3 - Transferência");
+                Console.WriteLine("4 - Saldo");
                 Console.WriteLine("0 - Para sair do espaço do Cliente");
                 Console.Write("Digite a opção desejada: ");
                 optionMenuCliente = int.Parse(Console.ReadLine());
@@ -133,6 +136,8 @@ namespace bybankPedroCruz
                         break;
                     case 3: Transferencia(index,cpfs,titulares,saldos);
                         break;
+                    case 4: Saldo(index, cpfs, titulares, saldos);
+                        break;
                     
 
                 }
@@ -143,7 +148,9 @@ namespace bybankPedroCruz
             
         }
 
-       
+      
+
+
 
 
 
@@ -166,9 +173,10 @@ namespace bybankPedroCruz
             double valorDepositado = double.Parse(Console.ReadLine());
             saldos[index] += valorDepositado;
 
+            Console.WriteLine("");
             Console.WriteLine($"saldo atualizado de {saldos[index]:F2}");
-            
-            
+            Console.WriteLine("");
+
         }
 
         //Saque
@@ -188,7 +196,9 @@ namespace bybankPedroCruz
             double valorSacado = double.Parse(Console.ReadLine());
             saldos[index] -= valorSacado;
 
+            Console.WriteLine("");
             Console.WriteLine($"saldo atualizado de {saldos[index]:F2}");
+            Console.WriteLine("");
         }
 
 
@@ -226,16 +236,32 @@ namespace bybankPedroCruz
                 saldos[index] -= valorDaTransferencia;
                 saldos[indexSegundoTitular] += valorDaTransferencia;
 
+                Console.WriteLine("");
                 Console.WriteLine($"saldo atualizado de {saldos[index]:F2}");
+                Console.WriteLine("");
             }
 
         }
 
+        //SALDO
 
-        //conta de transferencia 
-        
+        static void Saldo(int index, List<string> cpfs, List<string> titulares, List<double> saldos)
+        {
+            Console.WriteLine("------------------------------------------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine($" Voce selecionou a opção Saldo:");
+            Console.WriteLine("");
+            Console.WriteLine("------------------------------------------------------------------");
+                        Console.WriteLine("");
+            Console.WriteLine($"Seu saldo atual é: Saldo = R${saldos[index]:F2}");
+            Console.WriteLine("");
 
-        
+
+        }
+
+
+
+
 
 
 
@@ -254,7 +280,7 @@ namespace bybankPedroCruz
 
             Console.WriteLine("------------------------------------------------------------------");
             Console.WriteLine("");
-            Console.WriteLine("Seja Bem Vindo ao banco do Imã o melhor e o mais seguro do Brasil.");
+            Console.WriteLine("Seja Bem Vindo ao banco Imã o melhor e o mais seguro do Brasil.");
 
 
             //listas 
