@@ -113,7 +113,7 @@ namespace ByteBank1
 
 
 
-        // SOMAR O SALDO DE TODO O BANCO 
+        // SOMAR O SALDO DE TODO O BANCO
         static void ApresentarValorAcumulado(List<double> saldos)
         {
             Console.WriteLine($"Total acumulado no banco: {saldos.Sum()}");
@@ -122,6 +122,7 @@ namespace ByteBank1
 
 
          
+        //apresentar conta
         static void ApresentaConta(int index, List<string> cpfs, List<string> titulares, List<double> saldos)
         {
             Console.WriteLine($"CPF = {cpfs[index]} | Titular = {titulares[index]} | Saldo = R${saldos[index]:F2}");
