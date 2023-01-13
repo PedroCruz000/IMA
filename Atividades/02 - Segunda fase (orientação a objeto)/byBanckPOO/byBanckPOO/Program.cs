@@ -1,4 +1,5 @@
 ﻿using byBanckPOO.Entities;
+using byBanckPOO.Model;
 
 namespace byBanckPOO
 {
@@ -6,14 +7,25 @@ namespace byBanckPOO
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("cadastre um cliente");
-            Clientes cliente = new Clientes();
 
-            Console.WriteLine("Digite o CPF:");
-            cliente.Cpf= Console.ReadLine();
+            Conta contaPedro = new Conta(003,"01413747213","senha1234");
 
-            Console.WriteLine($"o cpf digitado foi {cliente.Cpf}");
 
+            contaPedro.Depositar(200.0);
+            contaPedro.Depositar(200.0);
+
+            Console.WriteLine($"saldo é igual= {contaPedro.Saldo}");
+
+            contaPedro.Sacar(375.0);
+
+
+            Console.WriteLine($"saldo é igual= {contaPedro.Saldo}");
+
+            contaPedro.Sacar(0);
+
+            Console.WriteLine($"saldo é igual= {contaPedro.Saldo}"); 
+            
+            contaPedro.Trasferir 
         }
     }
 }

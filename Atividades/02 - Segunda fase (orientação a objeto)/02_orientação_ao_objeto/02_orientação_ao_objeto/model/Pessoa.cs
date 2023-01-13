@@ -2,42 +2,31 @@
 {
     public class Pessoa
     {
-        // atributos 
-        private string _nome { get; set; }
-        private double _altura { get; set; }
-        private int _idade { get; set; }
-        private string _telefone { get; set; }
+        // atributos  // Propreties (é uma maneira de escrever os get em set mais abreviados.
+
+        private string Nome { get; set; }
+        private double Altura { get; set; }
+        private int Idade { get; set; }
+        private string Telefone { get; set; }
 
 
         //contrutor 
         public Pessoa(string nome, double altura, int idade, string telefone)
         {
-            _nome = nome;
-            _altura = altura;
-            _idade = idade;
-            _telefone = telefone;
+            Nome = nome;
+            Altura = altura;
+            Idade = idade;
+            Telefone = telefone;
         }
 
-       
+      
+
 
         // metodo
-
-        public int PegarIdade()
+        
+       public void FazerAniversario()
         {
-            return _idade;
-        }
-
-
-        public void SetIdade(int idadeEntrada)
-        {
-            if (idadeEntrada <= 0) return;
-            _idade= idadeEntrada;
-        }
-
-
-        public void FazerAniversario()
-        {
-            _idade++;
+            Idade++;
         }
 
 
