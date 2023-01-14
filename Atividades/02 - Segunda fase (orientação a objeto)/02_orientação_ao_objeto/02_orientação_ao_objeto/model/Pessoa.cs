@@ -4,10 +4,10 @@
     {
         // atributos  // Propreties (é uma maneira de escrever os get em set mais abreviados.
 
-        private string Nome { get; set; }
-        private double Altura { get; set; }
-        private int Idade { get; set; }
-        private string Telefone { get; set; }
+        public string Nome { get; set; }
+        public double Altura { get; set; }
+        public int Idade { get; set; }
+        public string Telefone { get; set; }
 
 
         //contrutor 

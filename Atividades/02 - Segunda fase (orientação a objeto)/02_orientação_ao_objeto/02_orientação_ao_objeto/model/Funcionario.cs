@@ -1,12 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _02_orientação_ao_objeto.model
+﻿namespace _02_orientação_ao_objeto.model
 {
-    internal class Funcionario
+    public class Funcionario
     {
+        //atributos
+
+        private double _salarioBruto;
+        private double _imposto;
+
+
+        //proprietis
+
+      
+
+        public double SalarioLiquido
+        {
+            get { return _salarioBruto - Imposto; }
+            set { return; }
+        }
+
+        //auto proprieties prop + tab + tab
+
+        public double SalarioBruto { get; private set; }
+        public double Imposto { get; set; }
+
     }
 }

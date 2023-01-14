@@ -61,17 +61,23 @@ namespace byBanckPOO.Model
             //ex contaPedro.transferir 
             // o this expecifica a contaPedro 
 
-            if (this.Sacar(quantia))
-            {
-                return contaDestino.Depositar(quantia);
 
-            }
-            return false;
+            //validação 1
+            if (contaDestino.EstaBloqueada)
+                return false;
+
+
+            //validação 2
+            if (!this.Sacar(quantia))           
+                return false;
+
+            
+            return contaDestino.Depositar(quantia);
         }
 
-      
-       
-         
+
+
+
 
 
 
