@@ -10,6 +10,9 @@
             int tentativas = 0;
             
 
+            //lista para adicionar as jogadas feitas, e não deixar o usuario repetilas 
+            List<string> indexNumeros = new List<string>();
+
             int index = 1;
 
 
@@ -24,6 +27,7 @@
                 for (int coluna = 0; coluna < matriz.GetLength(1); coluna++)
                 {
                     matriz[linha, coluna] = index.ToString(); 
+                    indexNumeros.Add(index.ToString());
                     index++;    
                 }
             }
@@ -75,9 +79,10 @@
                 {
                     for (int coluna = 0; coluna < matriz.GetLength(1); coluna++)
                     {
-                        if (matriz[linha,coluna] == jogada)
+                        if (matriz[linha,coluna] == jogada && indexNumeros.Contains(jogada))
                         {
-                            matriz[linha, coluna] = turno; 
+                            matriz[linha, coluna] = turno;
+                            indexNumeros.Remove(jogada);
                         }
                     }
                 }
@@ -111,6 +116,12 @@
                 }
 
                 tentativas++;
+
+                while (!indexNumeros.Contains(jogada))
+                {
+                    Console.Write("Jogada invalida. Tente Novamente");
+                    jogada = Console.ReadLine();
+                }
                 Console.Clear() ;
 
                 
