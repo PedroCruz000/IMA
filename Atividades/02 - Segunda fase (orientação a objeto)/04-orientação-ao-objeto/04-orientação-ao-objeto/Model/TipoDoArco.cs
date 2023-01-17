@@ -2,5 +2,11 @@
 {
     public class TipoDoArco
     {
+        public enum {
+            VENENOSO;
+            EXPLOSIVO;
+
+
+        }
     }
 }
