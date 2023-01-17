@@ -1,0 +1,15 @@
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\bin\Debug\net6.0\Jogo Da Velha.exe
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\bin\Debug\net6.0\Jogo Da Velha.deps.json
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\bin\Debug\net6.0\Jogo Da Velha.runtimeconfig.json
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\bin\Debug\net6.0\Jogo Da Velha.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\bin\Debug\net6.0\Jogo Da Velha.pdb
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\obj\Debug\net6.0\Jogo Da Velha.csproj.AssemblyReference.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\obj\Debug\net6.0\Jogo Da Velha.GeneratedMSBuildEditorConfig.editorconfig
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\obj\Debug\net6.0\Jogo Da Velha.AssemblyInfoInputs.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\obj\Debug\net6.0\Jogo Da Velha.AssemblyInfo.cs
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\obj\Debug\net6.0\Jogo Da Velha.csproj.CoreCompileInputs.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\obj\Debug\net6.0\Jogo Da Velha.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\obj\Debug\net6.0\refint\Jogo Da Velha.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\obj\Debug\net6.0\Jogo Da Velha.pdb
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\obj\Debug\net6.0\Jogo Da Velha.genruntimeconfig.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Jogo Da Velha\Jogo Da Velha\obj\Debug\net6.0\ref\Jogo Da Velha.dll
