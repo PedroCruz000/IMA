@@ -38,14 +38,26 @@ namespace Teste.Entities
         }
         public static void Cadastrar()
         {
-            Console.WriteLine("cadastrar um novo jogador:");
+            Console.Clear();
+            Console.ForegroundColor= ConsoleColor.DarkYellow;
+            Console.WriteLine("\n\tcadastrar um novo jogador:");            
             string nomeDoUsuario = PegarNome();
             Jogadores novoJogador = new Jogadores(nomeDoUsuario);
             listaJogadores.Add(novoJogador);
-            Console.WriteLine(listaJogadores[0]);
-          
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("\n\tjogador cadastrado com sucesso!");
+            Console.WriteLine("\n\tdigite uma tecla para continuar");
+            
+
+            foreach (Jogadores item in listaJogadores)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadKey();
+            Console.ResetColor();
 
         }
+
 
 
 

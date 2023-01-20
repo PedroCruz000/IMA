@@ -21,6 +21,7 @@ namespace Teste.inicio
 
         public static void ShowMenu()
         {
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkYellow;
 
             Console.WriteLine("\n\n\t 1 - Cadastrar jogador");
