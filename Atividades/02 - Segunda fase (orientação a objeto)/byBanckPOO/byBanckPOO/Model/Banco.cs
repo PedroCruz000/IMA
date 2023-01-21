@@ -15,6 +15,7 @@ namespace byBanckPOO.Model
 
         public readonly string Agencia;
 
+        //construtor
         public Banco (string Agencia)
         {
             _contas = new List<Conta>();

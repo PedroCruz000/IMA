@@ -26,7 +26,9 @@ namespace Teste.Entities
         //metodo
 
         public static List<Jogadores> listaJogadores = new List<Jogadores>();
-        public static string PegarNome()
+          
+     
+    public static string PegarNome()
         {
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.Write("\n\tDigite seu Nome: ");
@@ -45,16 +47,14 @@ namespace Teste.Entities
             Jogadores novoJogador = new Jogadores(nomeDoUsuario);
             listaJogadores.Add(novoJogador);
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("\n\tjogador cadastrado com sucesso!");
-            Console.WriteLine("\n\tdigite uma tecla para continuar");
-            
-
-            foreach (Jogadores item in listaJogadores)
-            {
-                Console.WriteLine(item);
-            }
+            Console.Clear();
+            Console.WriteLine("\n\tJogador cadastrado com sucesso!");           
+            Console.WriteLine($"\n\tO nome do titular cadastrado é {novoJogador.Nome}");
+            Console.WriteLine("\n\tDigite uma tecla para continuar");
             Console.ReadKey();
             Console.ResetColor();
+
+         
 
         }
 

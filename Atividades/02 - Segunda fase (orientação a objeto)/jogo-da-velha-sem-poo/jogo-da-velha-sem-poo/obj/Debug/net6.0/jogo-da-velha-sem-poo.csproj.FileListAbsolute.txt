@@ -1,0 +1,15 @@
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\bin\Debug\net6.0\jogo-da-velha-sem-poo.exe
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\bin\Debug\net6.0\jogo-da-velha-sem-poo.deps.json
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\bin\Debug\net6.0\jogo-da-velha-sem-poo.runtimeconfig.json
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\bin\Debug\net6.0\jogo-da-velha-sem-poo.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\bin\Debug\net6.0\jogo-da-velha-sem-poo.pdb
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\obj\Debug\net6.0\jogo-da-velha-sem-poo.csproj.AssemblyReference.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\obj\Debug\net6.0\jogo-da-velha-sem-poo.GeneratedMSBuildEditorConfig.editorconfig
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\obj\Debug\net6.0\jogo-da-velha-sem-poo.AssemblyInfoInputs.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\obj\Debug\net6.0\jogo-da-velha-sem-poo.AssemblyInfo.cs
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\obj\Debug\net6.0\jogo-da-velha-sem-poo.csproj.CoreCompileInputs.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\obj\Debug\net6.0\jogo-da-velha-sem-poo.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\obj\Debug\net6.0\refint\jogo-da-velha-sem-poo.dll
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\obj\Debug\net6.0\jogo-da-velha-sem-poo.pdb
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\obj\Debug\net6.0\jogo-da-velha-sem-poo.genruntimeconfig.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\jogo-da-velha-sem-poo\jogo-da-velha-sem-poo\obj\Debug\net6.0\ref\jogo-da-velha-sem-poo.dll
