@@ -63,6 +63,10 @@ namespace Teste02
                     case 1:
                         Json.Adicionar();
                         break;
+                    case 2:
+                        Json.Remover();
+                        break;
+
 
                 }
 

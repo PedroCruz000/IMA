@@ -1,0 +1,27 @@
+[
+  {
+    "Nome": "Thor",
+    "Idade": 5,
+    "Raca": "Pastor Sui\u00E7o"
+  },
+  {
+    "Nome": "billy",
+    "Idade": 6,
+    "Raca": "pintcher"
+  },
+  {
+    "Nome": "tequila",
+    "Idade": 5,
+    "Raca": "Gato desfar\u00E7ado"
+  },
+  {
+    "Nome": "mel",
+    "Idade": 2,
+    "Raca": "Pastor Alem\u00E3o"
+  },
+  {
+    "Nome": "plim plim",
+    "Idade": 2,
+    "Raca": "Pastor Alem\u00E3o"
+  }
+]
