@@ -12,13 +12,15 @@ namespace Teste02
 
             // Json data = new Json();
 
+            
+
             int option = 10;
 
             do
             {
                 Menu.ShowMenu();
 
-                
+                Json data = new Json();
 
 
                 try
@@ -66,6 +68,13 @@ namespace Teste02
                     case 2:
                         Json.Remover();
                         break;
+                    case 4:
+                        Jogar.Jogo();
+                        break;
+                    
+                        
+
+
 
 
                 }
