@@ -60,10 +60,16 @@ namespace teste02.Services
             string[,] tabuleiro = Tabuleiro.GerarTabuleiro(Tamanho);
             return tabuleiro;
         }
+        public static string[,] TabuleiroBatalhaNaval()
+        {
+            Tamanho = 10;
+            string[,] tabuleiro = Tabuleiro.GerarTabuleiro(Tamanho);
+            return tabuleiro;
+        }
 
 
 
-
+        //jogo da velha 
         public static void Jogo()
 
         {
@@ -250,6 +256,28 @@ namespace teste02.Services
             return posicao;
         }
 
+
+        public static void BatalhaNaval()
+        {
+            //seleção de jogadores 
+
+            SelecionarJogadores();
+
+            //se não for ecolhido nenhum jogador o jogo encerra! 
+            if (Jogador1 == null)
+            {
+                return;
+            }
+            if (Jogador2 == null)
+            {
+                return;
+            }
+            string[,] tabuleiro = TabuleiroBatalhaNaval();
+
+            
+            Tabuleiro.MostrarTabuleiro(tabuleiro, Tamanho);
+            
+        }
 
     }
 }

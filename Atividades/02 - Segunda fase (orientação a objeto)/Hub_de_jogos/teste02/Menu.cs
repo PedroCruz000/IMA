@@ -38,6 +38,7 @@ namespace teste02
             Console.WriteLine("\n\t 2 - Deletar jogador");
             Console.WriteLine("\n\t 3 - Ranking dos jogadores");
             Console.WriteLine("\n\t 4 - Iniciar jogo da velha");
+            Console.WriteLine("\n\t 5 - Iniciar Batalha Naval");
             Console.WriteLine("\n\t 0 - Sair");
 
             Console.ResetColor();

@@ -75,6 +75,10 @@ namespace Teste02
                     case 4:
                         Jogar.Jogo();
                         break;
+                    case 5:
+                        Jogar.BatalhaNaval();
+                        break;
+                        
 
 
                 }
