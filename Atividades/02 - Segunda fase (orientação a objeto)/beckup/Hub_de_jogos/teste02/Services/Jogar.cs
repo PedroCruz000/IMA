@@ -19,10 +19,8 @@ namespace teste02.Services
 
         public static void SelecionarJogadores()
         {
-
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("\n\t Selecione os jogadores:");
             Console.Write("\n\tJogador 1: ");
             Console.ResetColor();
 
@@ -261,11 +259,8 @@ namespace teste02.Services
 
         public static void BatalhaNaval()
         {
-
-            //menu de boas vindas 
-            Menu.BemVindoBatalhaNaval();
-
             //seleção de jogadores 
+
             SelecionarJogadores();
 
             //se não for ecolhido nenhum jogador o jogo encerra! 
@@ -277,47 +272,11 @@ namespace teste02.Services
             {
                 return;
             }
-
-            //selecionar tamanho do tabuleiro 10x10
             string[,] tabuleiro = TabuleiroBatalhaNaval();
 
-
-            string posicao;
-            int vez = 1;
-
-            // repetição enquando não houver vitoria 
-
-            while (true)
-            {
-                //mostrar o tabuleiro 
-
-                Tabuleiro.MostrarTabuleiro(tabuleiro, Tamanho);
-
-                //vez do jogador 1 
-                if (vez % 2 != 0)
-                {
-                    posicao = PegarPosicao(Jogador1, "X");
-                    Tabuleiro.AlterarTabuleiro(posicao, Tamanho, tabuleiro, "X");
-
-                    //verificar vitoria 
-                    vez++;
-                }
-
-                //vez do jogador 2 
-
-                else
-                {
-                    posicao = PegarPosicao(Jogador2, "O");
-                    Tabuleiro.AlterarTabuleiro(posicao, Tamanho, tabuleiro, "O");
-
-                    //verificar vitoria 
-
-                    vez++;
-                }
-
-            }
-
-                
+            
+            Tabuleiro.MostrarTabuleiro(tabuleiro, Tamanho);
+            
         }
 
     }

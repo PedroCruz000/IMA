@@ -14,7 +14,7 @@ namespace teste02
         {
 
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("\n\tBem-vindo(a) Hub de jogos.");
+            Console.WriteLine("\n\tBem-vindo(a) ao Jogo da Velha.");
             Console.Write("\n\tPressione qualquer tecla para acessar ao menu ");
             Console.ReadKey();
             Console.ResetColor();
@@ -256,22 +256,5 @@ namespace teste02
         }
 
 
-
-        public static void BemVindoBatalhaNaval()
-        {
-            Console.Clear();
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("===========================================================");            
-            Console.WriteLine("\n\tBem-vindo(a) ao Batalha Naval.");
-            Console.WriteLine("\n\tPressione qualquer tecla para acessar ao menu \t\n");
-            Console.WriteLine("===========================================================");
-            Console.ReadKey();
-            Console.ResetColor();
-        }
-
-        public static void LegendaBatalhaNaval()
-        {
-            Console.WriteLine("");
-        }
     }
 }
