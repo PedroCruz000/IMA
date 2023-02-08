@@ -1,0 +1,5 @@
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.csproj.AssemblyReference.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfoInputs.cache
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfo.cs
+F:\01 ARMAZENAMENTOS\Pedro\Curso de programação\IMA\Atividades\02 - Segunda fase (orientação a objeto)\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.csproj.CoreCompileInputs.cache
