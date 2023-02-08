@@ -68,7 +68,8 @@ html,body #fullheight{
     color: black;
 }
 .item1{
-    border-color: #a5a5a5;
+    background-color: #a5a5a5;
+    
     border: none;
     
 }
