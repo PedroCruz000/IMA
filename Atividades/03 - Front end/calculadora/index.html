@@ -6,42 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap" rel="stylesheet">
+
+
+
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <section id="telefone">
+        <div class="container">
+            <div class="notification">
+                <img class="imagemPerfil" src="imagens/pedro.jpg" alt="imagem pedro">
+
+                <div class="tituloNotification">
+                   <h3>NOTIFICAÇÃO</h3>
+                   <p>Pedro Cruz</p>
+                </div>
+
+            </div>
+        
+
+
+            <div class="result">
+                <span>0</span>
+            </div>
     
-    <div class="container">
-
-        <div class="result">
-            <span>0</span>
+            <div class="buttons">
+    
+                <button class="item item1 clear">AC</button>
+                <button class="item item1 negative">+/-</button>
+                <button class="item percent sign">%</button>
+                <button class="item item3 sign">/</button>
+                <button class="item numbers">7</button>
+                <button class="item numbers">8</button>
+                <button class="item numbers">9</button>
+                <button class="item item3 sign">X</button>
+                <button class="item numbers">4</button>
+                <button class="item numbers">5</button>
+                <button class="item numbers">6</button>
+                <button class="item item3 sign">-</button>
+                <button class="item numbers">1</button>
+                <button class="item numbers">2</button>
+                <button class="item numbers">3</button>
+                <button class="item item3 sign">+</button>
+                <button class="item itemZero numbers">0</button>
+                <button class="item comma">,</button>
+                <button class="item item3 equals">=</button>
+                
+    
+            </div>
+    
         </div>
-
-        <div class="buttons">
-
-            <button class="item item1 clear">AC</button>
-            <button class="item item1 negative">+/-</button>
-            <button class="item percent sign">%</button>
-            <button class="item item3 sign">/</button>
-            <button class="item numbers">7</button>
-            <button class="item numbers">8</button>
-            <button class="item numbers">9</button>
-            <button class="item item3 sign">X</button>
-            <button class="item numbers">4</button>
-            <button class="item numbers">5</button>
-            <button class="item numbers">6</button>
-            <button class="item item3 sign">-</button>
-            <button class="item numbers">1</button>
-            <button class="item numbers">2</button>
-            <button class="item numbers">3</button>
-            <button class="item item3 sign">+</button>
-            <button class="item itemZero numbers">0</button>
-            <button class="item comma">,</button>
-            <button class="item item3 equals">=</button>
-            
-
-        </div>
-    </div>
+    </section>
 
     <script src="index.js"></script>
 </body>
