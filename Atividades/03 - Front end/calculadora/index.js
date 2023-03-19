@@ -27,8 +27,10 @@ class Calculator{
    
     // adicionando operações 
     addOperations(operation){
-       this.currentOparation = operation
-       this.updateScreen()
+       let operationValue;
+       let previus = +this.previousOperationText.innerText;
+       let curret = +this.currentOparationText.innerText;
+       
     }
 
     // atualizar o visor 
